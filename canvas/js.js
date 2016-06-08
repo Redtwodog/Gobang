@@ -90,6 +90,7 @@ function drawChess() {
 			context.closePath()
 		}
 	}
+	
 	var oneStep = function(i, j, me) {
 		context.beginPath();
 		context.arc(15 + i * 30, 15 + j * 30, 10, 0, 2 * Math.PI);
